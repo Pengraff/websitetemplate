@@ -1,0 +1,8 @@
+What Emmet does to speed up your html building:
+Open an index.html and digit ! then press Emmet abbreviation to create a quick template.
+If you want to create a <div> with  class you just need to digit .myclass and press enter 
+
+SHORTCUTS:
+CTRL + B to remove the sidebar
+alt + arrow to move a line up and down
+alt + shift to copy a line 

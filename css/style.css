@@ -1,0 +1,103 @@
+body {
+    margin: 0;}
+a{
+    text-decoration: none;}
+/*-----------HEADER-----------*/
+header{
+    height:65px;
+    width:100%;
+    background-color:lightgreen;
+    opacity: 0.8;
+    top:0;
+    z-index: 10;}
+container{
+    width:100%;
+    margin: 0 auto;
+    padding:0 15px}
+.header-left {
+    float: left;
+height:65px;}
+.header-right {
+    float: right;
+    background-color: rgba(71, 69, 69, 0.8);
+    transition: all 0.5s;}
+.header-right a{line-height:65px;
+color:white;
+display:block;
+padding: 0 25px;
+}
+.header-right:hover{
+    background-color: chocolate;
+}
+/*-----------TOP SECTION-----------*/
+.top-wrapper{
+    background-image: url(../pics/pnegraffashi.jpg);
+    background-size: cover;
+    color:white;
+    padding: 180px 0 100px 0;
+    text-align: center;
+}
+.logo{width:124px;
+margin-top: 20px ;}
+/*-----------SECTION 1-----------*/
+.section1-wrapper{
+    background-color: rgb(221, 144, 88);
+    padding: 10px 0 10px 0; 
+    text-align:center; 
+    height: 500px;
+    color:white;
+}
+.heading{ padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;}
+.element{
+    float:left;
+    width:25%;
+}
+.elements{padding:0 30px 0 30px;}
+.element-icon {position: relative;}
+.element-icon p{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    color: white;
+  }
+
+/*-----------SECTION 2-----------*/
+.section2-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  .explore {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  .explore:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+/*-----------BOTTOM SECTION -----------*/
+  .bottom-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+  }
+/*-----------FOOTER-----------*/
+
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+  }
